@@ -1,0 +1,17 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "This is a url shortener, which takes your long URLs and provide you with a short URL with proper redirection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Adeeb Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "mongoose": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "shortid": "^2.2.16"
+  }
+}
